@@ -1,0 +1,28 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "mood-render",
+  "version": "0.1.4",
+  "description": "Local moodboard studio for reference-guided architectural image editing with Codex built-in tools. No model API key.",
+  "author": {
+    "name": "Personal tools"
+  },
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Mood Render",
+        "shortDescription": "3D 이미지에서 무드보드 기반 실사화",
+        "longDescription": "레퍼런스를 검색하고 무드보드를 구성해 Codex 내장 이미지 도구로 건축·인테리어 이미지를 실사화합니다.",
+        "developerName": "Personal tools",
+        "category": "Design",
+        "capabilities": [
+          "Interactive",
+          "Read",
+          "Write"
+        ],
+        "defaultPrompt": "Mood Render를 열고 3D 이미지와 레퍼런스로 실사화를 시작해줘.",
+        "logo": "./assets/icon.svg",
+        "composerIcon": "./assets/icon.svg"
+      }
+    }
+  }
+}

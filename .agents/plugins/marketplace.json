@@ -1,0 +1,20 @@
+{
+  "name": "mood-render-public",
+  "interface": {
+    "displayName": "Mood Render"
+  },
+  "plugins": [
+    {
+      "name": "mood-render",
+      "source": {
+        "source": "local",
+        "path": "./mood-render"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Design"
+    }
+  ]
+}
